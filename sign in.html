@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+</head>
+<style>
+body{
+	background-color: black;
+}
+input{
+	border: 1px solid black;
+	border-radius: 10px;
+	background: white;
+	color: green;
+	height: 30px;
+	width: 150px;
+	margin-left: 47px;
+	margin-top: 10px;
+	font-size: 20px;
+}
+.author-border{
+	border: 1px solid red;
+	border-radius: 10px;
+	background: white;
+	height: 300px; 
+	width: 250px;
+	margin-left: 550px;
+	margin-top: 100px;
+
+}
+.author-text{
+	color: black;
+	font-weight: bold;
+	font-size: 30px;
+	margin-left: 85px;
+}
+ul {
+list-style: none;
+margin: 0;
+}
+a {
+text-decoration: none;
+display: block;
+width: 100px;
+height: 30px;
+}
+li {
+	float:left;
+	background: red;
+	width: 100px;
+	height: 30px;
+}
+li:hover{
+	background: #e61212;
+}
+li>ul{
+	display: none;
+}
+li>ul>li{
+	background: gray;
+}
+li:hover>ul{
+	float: none;
+	display: block;
+}
+
+</style>
+<body>
+	<div class="tabs">
+	<ul>
+	<li><a href="#tab1">Главная</a></li>
+	<li><a href="#tab1">Сайты</a></li>
+	<li><a href="#tab1">Чат</a></li>
+	<li><a href="#">Настройки</a>
+
+<ul>
+<li><a href="#1">Баланс</a></li>
+<li><a href="sign in.html">Вход</a></li>
+<li><a href="sign up.html">Регистрация</a></li>
+</ul>
+</li>
+</ul>
+</div>
+	<div class="author-border">
+		<div class="author-text">
+Вход
+</div>
+<form>
+	<input type="text" name="login" placeholder="Логин">
+	<input type="password" name="password" placeholder="Пароль">
+	<input type="button" name="button" placeholder='Войти'>
+</form>
+</div>
+</body>
+</html>

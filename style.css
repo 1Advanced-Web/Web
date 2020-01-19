@@ -1,0 +1,120 @@
+.author-info1{
+	font-weight: bold;
+	font-size: 30px;
+}
+.author-info2{
+	font-size: 10px;
+}
+.text-1{
+	border: 1px solid #ede4ca;
+	border-radius: 10px;
+	background: #ede4ca;
+	color: black;
+	height: 300px;
+	width: 400px;
+	margin-left: 35%;
+	margin-top: 100px;
+	transition: all 1s ease;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 30px;
+	color: black;
+	font-weight: bold;
+	font-size: 20px;
+}
+.text-1:hover{
+	height: 350px;
+	background: white;
+}
+body{
+	background: url('https://klike.net/uploads/posts/2019-06/1561182942_2.jpg');
+}
+.tab1-settings{
+	font-size: 35px;
+	font-weight: bold;
+}
+.bottom-info1{
+	font-size: 15px;
+	color: red;
+}
+.text-2{
+	border: 1px solid #ede4ca;
+	border-radius: 10px;
+	background: black;
+	color: black;
+	height: 300px;
+	width: 400px;
+	margin-left: 35%;
+	margin-top: 100px;
+	color: black;
+	font-weight: bold;
+	font-size: 20px;
+	padding: 30px;
+	transition: all 2s ease;
+	margin-top: 400px;
+}
+.tab2-settings{
+	font-size: 35px;
+	font-weight: bold;
+	color: white;
+	transition: all 2s ease
+}
+.text-2:hover{
+	height: 350px;
+	background: black;
+	color: white;
+}
+.tab2-settings: hover{
+	color: white;
+}
+	ul {
+list-style: none;
+margin: 0;
+}
+a {
+text-decoration: none;
+display: block;
+width: 100px;
+height: 30px;
+}
+li {
+	float:left;
+	background: red;
+	width: 100px;
+	height: 30px;
+}
+li:hover{
+	background: #e61212;
+}
+li>ul{
+	display: none;
+}
+li>ul>li{
+	background: gray;
+}
+li:hover>ul{
+	float: none;
+	display: block;
+}
+.tabs{
+	margin-top: 1px;
+}
+img{
+	height: 100px;
+	width: 100px;
+	float: left;
+}
+.text-3{
+	border: 1px solid #ede4ca;
+	border-radius: 10px;
+	background: white;
+	height: 300px;
+	width: 400px;
+	margin-left: 35%;
+	margin-top: 100px;
+	font-weight: bold;
+	font-size: 20px;
+	padding: 30px;
+	margin-top: 400px;
+	color: black;
+}
