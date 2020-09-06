@@ -105,7 +105,7 @@ body{
 @media (min-width: 650px){
 
 }
-@media (max-width: 1000px) {
+@media (max-width: 750px, min-width: 600px) {
 	.basic{
 		display: none;
 	}
